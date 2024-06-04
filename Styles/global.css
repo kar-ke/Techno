@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 14px;
+	font-family: var(--font-regular);
+	background-color: var(--c-white);
+	color: var(--c-grey);
+	line-height: 1.4;
+
+}
+
+.content-width{
+    padding: 0 20%;
+}
+
+ul li { list-style: none; list-style-type: none; }
+a { color: inherit; text-decoration: none; }
+a:hover { cursor: pointer; }
