@@ -14,7 +14,7 @@
     .col-xxl-12 { flex: 0 0 100%;   width: 100%; }
 
     .content-width{
-        padding: 0 10%;
+        padding: 0 8%;
     }
 }
 
@@ -33,7 +33,9 @@
     .col-xl-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-xl-12 { flex: 0 0 100%;   width: 100%; }
 
-   
+    .content-width{
+        padding: 0 4%;
+    }
     
 }
 
@@ -51,6 +53,15 @@
     .col-lg10 { flex: 0 0 83.33%; width: 83.33%; }
     .col-lg-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-lg12 { flex: 0 0 100%;   width: 100%; }
+
+    .primary-navbar, .secondary-navbar{
+        display: none;
+    }
+    .secondary-navbar-responsive{
+        display: flex;
+    }
+
+
 
 }
 

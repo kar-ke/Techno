@@ -1,3 +1,9 @@
+
+:root{
+    --h-primaryheader : 80px;
+    --h-secondaryheader : 40px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +21,7 @@ body{
 }
 
 .content-width{
-    padding: 0 20%;
+    padding: 0 18%;
 }
 
 ul li { list-style: none; list-style-type: none; }
