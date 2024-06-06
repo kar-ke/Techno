@@ -8,6 +8,7 @@
 
 .button-1 {
     font-size: 18px;
+    width: max-content;
     color: var(--c-white);
     background-color : var(--c-primary);
     padding: 12px 35px;

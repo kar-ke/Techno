@@ -8,65 +8,99 @@
     <!-- box icons  -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- carousel - swiperjs  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- styles  -->
     <link rel="stylesheet" href="./Styles/root.css">
 
     <!-- script  -->
-    <script src="./Script/script.js" async ></script>
 </head>
 <body>
 
     <header>
         <!-- secondary navbar  -->
         <div>
-            <div class="secondary-navbar content-width">
-                <ul class="flex align-center g15">
-                    <li class="header-menuitem">
-                        <a href="mailto:someone@example.com" class="flex g5"><i class='bx bx-envelope f20'></i>someone@example.com</a>
-                    </li>
-                    <li class="header-menuitem">
-                        <a href="#" class="flex g5"><i class='bx bxs-map f15' ></i>24/5, 1st floor, Kurigram.</a>
-                    </li>
-                    <li class="header-menuitem">
-                        <a href="tel:+ (1800) 456 7890" class="flex g5"><i class='bx bxs-phone f16'></i>+(1800) 456 7890</a>
-                    </li>
-                </ul>
-                <ul class="socials-button-container">
-                    <li>
-                        <a href="#" >
-                            <i class='bx bxl-meta f20'></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class='bx bxl-twitter f20'></i>
-                        </a href="#">
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class='bx bxl-pinterest f20' ></i>
-                        </a href="#">
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class='bx bxl-instagram f20'></i>
-                        </a href="#">
-                    </li>
-                </ul>    
-            </div>
+            <div class="secondary-navbar-container content-width">
+                <div class="secondary-navbar">
+                    <ul class="flex align-center g15">
+                        <li class="header-menuitem">
+                            <a href="mailto:someone@example.com" class="flex g5"><i class='bx bx-envelope f20'></i>someone@example.com</a>
+                        </li>
+                        <li class="header-menuitem">
+                            <a href="#" class="flex g5"><i class='bx bxs-map f15' ></i>24/5, 1st floor, Kurigram.</a>
+                        </li>
+                        <li class="header-menuitem">
+                            <a href="tel:+ (1800) 456 7890" class="flex g5"><i class='bx bxs-phone f16'></i>+(1800) 456 7890</a>
+                        </li>
+                    </ul>
+                    <ul class="socials-button-container">
+                        <li>
+                            <a href="#" >
+                                <i class='bx bxl-meta f20'></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxl-twitter f20'></i>
+                            </a href="#">
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxl-pinterest f20' ></i>
+                            </a href="#">
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxl-instagram f20'></i>
+                            </a href="#">
+                        </li>
+                    </ul>        
+                </div>
 
-            <div class="secondary-navbar-responsive">
-                <div>
-                    <h2>Techno</h2>
-                </div>
-                <div>
+                <div class="mobile-navbar">
                     <div>
-                        <i class='bx bx-menu f25'></i>
+                        <h2>Techno</h2>
                     </div>
+                    <div>
+                        <i class='bx bx-menu f20'></i>
+                    </div>
+
+                    <ul class="mobile-navbar-menulists">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">HOME</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">COMPANY</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">SERVICE</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">IT SOLUTION</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">ELEMENT</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">BLOG</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">CONTACT</a>
+                            <i class='bx bx-plus'></i>
+                        </li>
+                    </ul>
+                    
                 </div>
-            </div>
-            
+                
+            </div>           
         </div>   
 
         <!-- primary navbar  -->
@@ -105,18 +139,70 @@
             </ul>
             </div>
         </nav>
+
     </header>
 
     <main>
+        <!-- carousel section -->
         <section class="hero-section">
-            <div class="carousel">
-                
+            <div class="swiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide slide-1 content-width">
+                        <div class="hero-contents">
+                            <h2 class="hero-text">IT Consulting Services<br>For Your Business</h2>
+                            <p class="hero-description">We think it's really important to design things with a kind of personality.</p>
+                            <button class="default-btn button-1 mt10">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-2 content-width">
+                        <div class="hero-contents">
+                            <h2 class="hero-text">IT Consulting Services<br>For Your Business</h2>
+                            <p class="hero-description">We think it's really important to design things with a kind of personality.</p>
+                            <button class="default-btn button-1 mt10">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-3 content-width">
+                        <div class="hero-contents">
+                            <h2 class="hero-text">IT Consulting Services<br>For Your Business</h2>
+                            <p class="hero-description">We think it's really important to design things with a kind of personality.</p>
+                            <button class="default-btn button-1 mt10">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </section>
+
+        <!-- <section class="about-section">
+            <div class="about-image-section">
+                <img src="./Assets/images/about-img.png" alt="about-img" class="about-image">
+            </div>
+            <div class="about-content-section">
+                <h4>30 YEARS OF EXPERIENCE</h4>
+                <h2>26 Years Of Experience <br>In Serve To <span>People</span></h2>
+                <p>We are privileged to work with hundred future thinking awesom business including many of the world's top hardware</p>
+                <div>
+                    <div></div>
+                    <div>
+                        <span>Our Mission</span>
+                        <p>Morem Ipsum is simply dummy text of the printing and pepesetting found.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
     </main>
     
     
-
-
+    
+    <!-- swiperjs - carousel  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    
+    <!-- javascript  -->
+    <script src="./Script/script.js" async></script>
 </body>
 </html>

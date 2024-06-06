@@ -57,9 +57,13 @@
     .primary-navbar, .secondary-navbar{
         display: none;
     }
-    .secondary-navbar-responsive{
+    .secondary-navbar-container{
+        height: var(--h-mobile-navbar);
+    }
+    .mobile-navbar{
         display: flex;
     }
+
 
 
 

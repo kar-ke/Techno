@@ -2,6 +2,7 @@
 :root{
     --h-primaryheader : 80px;
     --h-secondaryheader : 40px;
+    --h-mobile-navbar: 60px;
 }
 
 *{

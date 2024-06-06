@@ -1,20 +1,14 @@
 /* secondary navbar  */
+.secondary-navbar-container{
+    background-color: var(--c-primary);
+    height: var(--h-secondaryheader);
+    color: var(--c-white);
+    position: relative;
+}
 .secondary-navbar{
     display: flex;
     justify-content: space-between;
-    color: var(--c-white);
-    background-color: var(--c-primary);
-    height: var(--h-secondaryheader);
-}
-
-.secondary-navbar-responsive{
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--c-white);
-    background-color: var(--c-primary);
-    height: calc(var(--h-secondaryheader) + 10px);
-    padding: 0 10px;
+    height: 100%;
 }
 
 .socials-button-container{
@@ -38,3 +32,42 @@
     font-family: var(--font-semibold);
     color: var(--c-grey-100);
 }
+
+.mobile-navbar{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.mobile-navbar-menulists{
+    position: absolute;
+    width: 100%;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+    top: var(--h-mobile-navbar);
+    left: 0;
+    z-index: 2;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 32px;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+    font-family: var(--font-semibold);
+    transition: var(--default-trans);
+}
+
+.menu-link{
+    transition: var(--default-trans);
+
+}
+
+.menu-item:hover .menu-link{
+    color : var(--c-primary)
+}
+.menu-item:hover{
+    background-color : hsl(0, 0%, 98%)
+}
+

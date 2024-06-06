@@ -1,10 +1,10 @@
 :root{
 
-    --c-primary: hsl(217, 90%, 45%);
+    --c-primary: #0762f8;
 
-    --c-white : hsl(0, 0%, 100%);
+    --c-white : #ffffff;
 
-    --c-grey : hsl(0, 0%, 38%);
+    --c-grey : #616161;
     --c-grey-100 : #232323;
 
 }
