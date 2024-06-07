@@ -15,6 +15,9 @@
 .f40 { font-size: 40px; }
 
 /* size */
+
+.s5 { width: 5px; height: 5px; }
+.s10 { width: 10px; height: 10px; }
 .s20 { width: 20px; height: 20px; }
 .s22 { width: 22px; height: 22px; }
 .s28 { width: 28px; height: 28px; }

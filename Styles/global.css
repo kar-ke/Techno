@@ -25,6 +25,7 @@ body{
     padding: 0 18%;
 }
 
+
 ul li { list-style: none; list-style-type: none; }
 a { color: inherit; text-decoration: none; }
 a:hover { cursor: pointer; }

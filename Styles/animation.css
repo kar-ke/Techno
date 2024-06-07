@@ -1,13 +1,11 @@
 
-:root{
+:root {
+    --trans: all ease-in-out;
+    --two-sec: 0.2s;
+    --three-sec: 0.3s;
+    --five-sec: 0.5s;
 
-    --trans : all ease-in-out;
-    --two-sec: .2s;
-    --three-sec: .3s;
-    --five-sec: .5s;
-
-    --slow-trans : var(--trans) var(--five-sec);
-    --fast-trans : var(--trans) var(--two-sec);
-    --default-trans : var(--trans) var(--three-sec);
-
+    --slow-trans: var(--trans) var(--five-sec);
+    --fast-trans: var(--trans) var(--two-sec);
+    --default-trans: var(--trans) var(--three-sec);
 }

@@ -9,8 +9,11 @@
 .flex-grow-1 { flex-grow: 1;}
 .flex-shrink-1 { flex-shrink: 1;}
 
+.hidden { display: none ;}
 .block { display: block;}
 .inline-block { display: inline-block;}
+
+
 
 /* horizontal alligment  */
 .justify-start { justify-content: start; }
