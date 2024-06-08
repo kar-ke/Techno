@@ -61,10 +61,16 @@
 
 .about-content-section{
     flex: 1;
-    padding: 12px;
+    padding: 12px 12px 12px 30px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
+}
+
+.about-inner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .about-image{
@@ -72,14 +78,13 @@
 }
 
 .about-title{
-    font-size: 40px;
     font-family: var(--font-Extrabold);
     line-height: 1.2;
     color: var(--c-black);
 }
 .about-icons{
-    height: 70px;
-    width: 70px;
+    height: 75px;
+    width: 75px;
     background-color: var(--c-primary);
     padding : 15px;
     border-radius: 4px;

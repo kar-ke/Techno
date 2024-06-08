@@ -36,6 +36,13 @@
     .content-width{
         padding: 0 4%;
     }
+
+    .title-l { font-size: 30px }
+    .title-s { font-size: 14px }
+
+    .content-l { font-size: 18px;}
+    .content-m { font-size: 16px;}
+    .content-s { font-size: 14px;}
     
 }
 
@@ -62,6 +69,12 @@
     }
     .mobile-navbar{
         display: flex;
+    }
+
+
+    .about-section{
+        flex-direction: column;
+        gap: 30px;
     }
 
 
@@ -100,5 +113,7 @@
     .col-sm-10 { flex: 0 0 83.33%; width: 83.33%; }
     .col-sm-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-sm-12 { flex: 0 0 100%;   width: 100%; }
+
+    .title-l { font-size: 25px }
 
 }
