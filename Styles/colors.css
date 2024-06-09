@@ -19,6 +19,7 @@
 
 .c-blue { color: var(--c-primary) }
 .c-black { color : var(--c-black) }
+.c-white { color : var(--c-white)}
 
 
 .bg-c-blue { background-color: var(--c-primary)}

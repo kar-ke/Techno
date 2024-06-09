@@ -78,9 +78,7 @@
 }
 
 .about-title{
-    font-family: var(--font-Extrabold);
     line-height: 1.2;
-    color: var(--c-black);
 }
 .about-icons{
     height: 75px;
@@ -89,4 +87,50 @@
     padding : 15px;
     border-radius: 4px;
 
+}
+
+/* usp section  */ 
+
+
+.service-features-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 0;
+    background-image: url(../Assets/images/banner-1.jpg);
+    background-size: cover;
+    margin-bottom: 130px;
+    height: 500px;
+    
+}
+
+.play-icon{
+    color: var(--c-primary);
+    font-size: 50px;
+    background-color: var(--c-white);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.flip-cards-container{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+.flip-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--c-white);
+    background-color: var(--c-primary);
+    width: 350px;
+    padding: 20px 10px;
+    border-radius: 5px;
 }
