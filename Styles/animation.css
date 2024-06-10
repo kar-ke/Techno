@@ -1,6 +1,7 @@
 
 :root {
     --trans: all ease-in-out;
+    --trans-1 : all ease;
     --two-sec: 0.2s;
     --three-sec: 0.3s;
     --five-sec: 0.5s;
