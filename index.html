@@ -12,6 +12,14 @@
 		<!-- carousel - swiperjs  -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+		<!-- carousel and slider plugin  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 		<!-- styles  -->
 		<link rel="stylesheet" href="./Styles/root.css" />
 
@@ -302,17 +310,92 @@
 			<!-- services section -->
 			<section class="services-section content-width">
 				<div>
-					<h6 class="text-a-center">OUR SERVICES</h6>
-					<h2 class="text-a-center">What We <span class="c-blue">Provide</span></h2>
-				</div>
-				<div>
-					<div class="service-card">
-						<div>
-							<img src="./Assets/images/service01.jpg" alt="service-card-image">
-						</div>
-
+					<h6 class="text-a-center content-s c-blue">OUR SERVICES</h6>
+					<h2 class="text-a-center title-l c-black">What We <span class="c-blue">Provide</span></h2>
 					</div>
+					<hr class="divide-rule">
+					<div id="service-cards-slider" class="owl-carousel service-cards-container">
+						<div class="service-card">
+							<div class="card-image">
+								<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image">
+							</div>
+							<div class="card-content">
+								<div class="s80">
+									<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon">
+								</div>
+								<div>
+									<h3 class="title-m">Product Design</h3>
+									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+								</div>
+								<a href="#" class="c-blue content-s">READ MORE +</a>
+							</div>
+						</div>
+						<div class="service-card">
+							<div class="card-image">
+								<img src="./Assets/images/service03.jpg" alt="service-card-image" class="service-card-image">
+							</div>
+							<div class="card-content">
+								<div class="s80">
+									<img src="./Assets/icons/network.png" alt="coding-icon" class="card-icon">
+								</div>
+								<div>
+									<h3 class="title-m">Digital Services</h3>
+									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+								</div>
+								<a href="#" class="c-blue content-s">READ MORE +</a>
+							</div>
+						</div>
+						<div class="service-card">
+							<div class="card-image">
+								<img src="./Assets/images/service02.jpg" alt="service-card-image" class="service-card-image">
+							</div>
+							<div class="card-content">
+								<div class="s80">
+									<img src="./Assets/icons//ruler.png" alt="coding-icon" class="card-icon">
+								</div>
+								<div>
+									<h3 class="title-m">Product Selling</h3>
+									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+								</div>
+								<a href="#" class="c-blue content-s">READ MORE +</a>
+							</div>
+						</div>
+						<div class="service-card">
+							<div class="card-image">
+								<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image">
+							</div>
+							<div class="card-content">
+								<div class="s80">
+									<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon">
+								</div>
+								<div>
+									<h3 class="title-m">System Support</h3>
+									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+								</div>
+								<a href="#" class="c-blue content-s">READ MORE +</a>
+							</div>
+						</div>
+						<div class="service-card">
+							<div class="card-image">
+								<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image">
+							</div>
+							<div class="card-content">
+								<div class="s80">
+									<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon">
+								</div>
+								<div>
+									<h3 class="title-m">Analytics</h3>
+									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+								</div>
+								<a href="#" class="c-blue content-s">READ MORE +</a>
+							</div>
+						</div>
 				</div>
+			</section>
+
+			<!-- contact section  -->
+			<section class="contact-section">
+
 			</section>
 		</main>
 
@@ -325,9 +408,16 @@
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 		<!-- jquery  -->
-		<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 		<!-- javascript  -->
 		<script src="./Script/script.js" async></script>
+
 	</body>
 </html>
