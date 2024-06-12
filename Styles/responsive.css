@@ -13,9 +13,8 @@
     .col-xxl-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-xxl-12 { flex: 0 0 100%;   width: 100%; }
 
-    .content-width{
-        padding: 0 8%;
-    }
+    /* global style  */
+    .content-width{ padding: 0 8%; }
 }
 
 @media screen and ( max-width: 1200px ) { 
@@ -61,28 +60,20 @@
     .col-lg-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-lg12 { flex: 0 0 100%;   width: 100%; }
 
-    .primary-navbar, .secondary-navbar{
-        display: none;
-    }
-    .secondary-navbar-container{
-        height: var(--h-mobile-navbar);
-    }
-    .mobile-navbar{
-        display: flex;
-    }
 
+    /* Navbar section  */
+    .primary-navbar, .secondary-navbar{ display: none; }
+    .secondary-navbar-container{ height: var(--h-mobile-navbar); }
+    .mobile-navbar{ display: flex; }
 
+    /* About section  */
     .about-section{
         flex-direction: column;
         gap: 30px;
     }
 
-    .flip-cards-container{
-        
-        flex-wrap: wrap;
-        
-    }
-
+    /* Service features section  */
+    .flip-cards-container{ flex-wrap: wrap; }
 
 
 
@@ -102,6 +93,19 @@
     .col-md-10 { flex: 0 0 83.33%; width: 83.33%; }
     .col-md-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-md-12 { flex: 0 0 100%;   width: 100%; }
+
+
+    /* contacts section  */
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-content-area{
+        align-items: center;
+        padding: 30px;
+    }
+    .contact-text{ text-align: center; }
 
 }
 

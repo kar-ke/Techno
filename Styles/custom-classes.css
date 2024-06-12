@@ -35,6 +35,21 @@
 }
 
 
+.button-3 {
+    width: max-content;
+    padding: 18px 35px;
+    background-color: var(--c-white);
+    font-size: 18px;
+    color: var(--c-primary);
+    border-radius: 5px;
+    transition: var(--fast-trans);
+}
+.button-3:hover {
+    background-color: var(--c-primary);
+    color: var(--c-white);
+}
+
+
 .divide-rule{
     width: 150px;
     height: 6px;
