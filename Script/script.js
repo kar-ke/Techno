@@ -3,6 +3,7 @@
 $(document).ready(function () {
     
 
+    // service cards carousel 
     $("#service-cards-slider").owlCarousel({
         margin: 30,
         loop: true,
@@ -22,8 +23,8 @@ $(document).ready(function () {
         }
     });
 
+    // case study carousel 
     $("#casestudy-carousel").owlCarousel({
-
         loop: true,
         items: 5,
         responsive: {
@@ -45,8 +46,28 @@ $(document).ready(function () {
         }
     })
 
+    // testimonial carousel 
+    $('#testimonial-cards-slider').owlCarousel({
+        margin: 40,
+        loop: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576:{
+                items:2,
+            },
+            768:{
+                items:2,
+            },
+            992:{
+                items:3,
+            }
+        }
+    })
 
 
+    // responsive nav menu button 
     $('.open-menu').click(function () {
         $('.mobile-navbar-menulists').addClass('toogleopen');
         $('.open-menu').addClass('hidden')
