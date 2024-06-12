@@ -266,4 +266,53 @@
     padding: 0 30px 0 50px;
 }
 
+/* casestudy section  */
+
+.casestudy-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.casestudy-image-container{
+    position: relative;
+}
+
+.casestudy-carousel-image{
+    display: block;
+}
+
+.casestudy-image-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:hsla(217, 95%, 50%, 80%);
+    opacity: 0;
+    transition: var(--slow-trans)
+}
+.casestudy-image-content:hover{
+    opacity: 1;
+}
+
+.casestudy-text-container{
+    position: relative;
+    top: 60%;
+    left: 13%;
+    background-color: var(--c-white);
+    width: 75%;
+    padding: 30px 10px;
+    border-radius: 5px;
+    transition: var(--slow-trans);
+}
+
+.casestudy-image-content:hover
+.casestudy-text-container{
+    top: 40%;
+}
+
+
 
