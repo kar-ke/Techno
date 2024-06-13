@@ -1,9 +1,47 @@
 
-// navbar actions 
 $(document).ready(function () {
     
+    // responsive nav menu button 
+    $('.open-menu').click(function () {
+        $('.mobile-navbar-menulists').addClass('toogleopen');
+        $('.open-menu').addClass('hidden')
+        $('.close-menu').removeClass('hidden')
+    });
+    $('.close-menu').click(function () {
+        $('.mobile-navbar-menulists').removeClass('toogleopen');
+        $('.close-menu').addClass('hidden')
+        $('.open-menu').removeClass('hidden')
+    });
+    
+    
+    // submenu 
+    $('.primarynav-item').hover(function () {
+        $(this).find('.sub-menu').css('visibility', 'visible');
+    }, function () {
+        $(this).find('.sub-menu').css('visibility', 'hidden');
+        
+    });
 
-    // service cards carousel 
+
+    // scroll to top
+    var offset = 250;
+    var duration = 500;
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > offset) {
+            $('.to-top').fadeIn(duration);
+        } else {
+            $('.to-top').fadeOut(duration);
+        }
+    });
+    
+    $('.to-top').click(function () {
+        $('body').animate({ scrollTop: 0 }, duration);
+    });
+
+
+
+    // hero carousel 
     $("#hero-carousel").owlCarousel({
         loop: true,
         items: 1,
@@ -79,28 +117,6 @@ $(document).ready(function () {
                 items: 3,
             }
         }
-    });
-
-
-    // responsive nav menu button 
-    $('.open-menu').click(function () {
-        $('.mobile-navbar-menulists').addClass('toogleopen');
-        $('.open-menu').addClass('hidden')
-        $('.close-menu').removeClass('hidden')
-    });
-    $('.close-menu').click(function () {
-        $('.mobile-navbar-menulists').removeClass('toogleopen');
-        $('.close-menu').addClass('hidden')
-        $('.open-menu').removeClass('hidden')
-    });
-
-
-    // submenu 
-    $('.primarynav-item').hover(function () {
-        $(this).find('.sub-menu').css('visibility', 'visible');
-    }, function () {
-        $(this).find('.sub-menu').css('visibility', 'hidden');
-        
     });
 
 });
