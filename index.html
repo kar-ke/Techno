@@ -30,6 +30,25 @@
 
 		<!-- styles  -->
 		<link rel="stylesheet" href="./Styles/root.css" />
+
+		<!-- preloader files -->
+		<script>
+			$(window).on("load", function () {
+        		$(".loader-container").fadeOut(1000);
+    		});
+		</script>
+		<style>
+			.loader-container {
+    			display: flex;
+    			align-items: center;
+    			justify-content: center;
+    			width: 100%;
+    			height: 100vh;
+    			background-color: var(--c-black);
+    			position: fixed;
+    			z-index: 5;
+			}
+		</style>
 	</head>
 	<body>
 
