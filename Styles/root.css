@@ -1,15 +1,14 @@
 @import url(./global.css);
 @import url(./font.css);
+@import url(./typography.css);
 @import url(./colors.css);
 @import url(./flex.css);
-@import url(./navbar.css);
 @import url(./style-bits.css);
-@import url(./typography.css);
 @import url(./custom-classes.css);
 @import url(./animation.css);
-@import url(./main.css);
+@import url(./navbar.css);
 @import url(./dropdown.css);
-
+@import url(./main.css);
 
 
 @import url(./responsive.css);

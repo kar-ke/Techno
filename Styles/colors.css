@@ -1,3 +1,4 @@
+
 :root{
 
     --c-primary: #0762f8;
@@ -14,14 +15,10 @@
     --c-grey-50 : #cac9c9;
     --c-grey-100 : #a1a1a1ea;
     --c-grey-200 : #232323;
-
-
-
+    
 }
 
-
 /* color classes  */
-
 .c-blue { color: var(--c-primary) }
 .c-black { color : var(--c-black) }
 .c-white { color : var(--c-white)}

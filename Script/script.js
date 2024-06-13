@@ -4,6 +4,16 @@ $(document).ready(function () {
     
 
     // service cards carousel 
+    $("#hero-carousel").owlCarousel({
+        loop: true,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplaySpeed: 2000
+    });
+
+
+    // service cards carousel 
     $("#service-cards-slider").owlCarousel({
         margin: 30,
         loop: true,
@@ -11,22 +21,26 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            576:{
-                items:2,
+            576: {
+                items: 2,
             },
-            768:{
-                items:2,
+            768: {
+                items: 2,
             },
-            992:{
-                items:3,
+            992: {
+                items: 3,
             }
         }
     });
+
 
     // case study carousel 
     $("#casestudy-carousel").owlCarousel({
         loop: true,
         items: 5,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplaySpeed: 5000,
         responsive: {
             0: {
                 items: 1
@@ -34,17 +48,18 @@ $(document).ready(function () {
             576: {
                 items: 2
             },
-            768:{
-                items:3,
+            768: {
+                items: 3,
             },
-            992:{
-                items:4,
+            992: {
+                items: 4,
             },
             1400: {
-                items:5
+                items: 5
             }
         }
-    })
+    });
+
 
     // testimonial carousel 
     $('#testimonial-cards-slider').owlCarousel({
@@ -54,17 +69,17 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            576:{
-                items:2,
+            576: {
+                items: 2,
             },
-            768:{
-                items:2,
+            768: {
+                items: 2,
             },
-            992:{
-                items:3,
+            992: {
+                items: 3,
             }
         }
-    })
+    });
 
 
     // responsive nav menu button 
@@ -72,12 +87,12 @@ $(document).ready(function () {
         $('.mobile-navbar-menulists').addClass('toogleopen');
         $('.open-menu').addClass('hidden')
         $('.close-menu').removeClass('hidden')
-    })
+    });
     $('.close-menu').click(function () {
         $('.mobile-navbar-menulists').removeClass('toogleopen');
         $('.close-menu').addClass('hidden')
         $('.open-menu').removeClass('hidden')
-    })
+    });
 
 
     // submenu 
@@ -86,42 +101,6 @@ $(document).ready(function () {
     }, function () {
         $(this).find('.sub-menu').css('visibility', 'hidden');
         
-    })
+    });
 
-})
-
-
-
-// Swiper js properties 
-// Hero page carousel 
-const swiper = new Swiper('.swiper', {
-    autoplay: {
-        delay: 3000
-    },
-    speed: 1000,
-    loop: true,
-
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true
-    },
-
-    navigation: {
-        enabled: false,
-    },
-
-    scrollbar: {
-    el: '.swiper-scrollbar',
-    },
-});
-
-
-// service cards swiper 
-const service_swiper = new Service_swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
 });

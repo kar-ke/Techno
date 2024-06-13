@@ -3,27 +3,31 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Techno - The official website of Techno solutions limited" />
+		<meta name="keywords" content="Techno IT solutions" />
+		<meta name="author" content="karthik" />
 		<title>Techno</title>
 
-		<!-- box icons  -->
+		<!-- icons - boxIcons -->
 		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-		<!-- carousel - swiperjs  -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
 		<!-- carousel and slider plugin  -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
 			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-			crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
 			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-			crossorigin="anonymous" referrerpolicy="no-referrer" />
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 
 		<!-- styles  -->
 		<link rel="stylesheet" href="./Styles/root.css" />
-
-		<!-- script  -->
 	</head>
 	<body>
 		<header>
@@ -44,33 +48,23 @@
 						</ul>
 						<ul class="socials-button-container">
 							<li>
-								<a href="#">
-									<i class="bx bxl-meta f20"></i>
-								</a>
+								<a href="#"><i class="bx bxl-meta f20"></i></a>
 							</li>
 							<li>
-								<a href="#">
-									<i class="bx bxl-twitter f20"></i>
-								</a>
+								<a href="#"><i class="bx bxl-twitter f20"></i></a>
 							</li>
 							<li>
-								<a href="#">
-									<i class="bx bxl-pinterest f20"></i>
-								</a>
+								<a href="#"><i class="bx bxl-pinterest f20"></i></a>
 							</li>
 							<li>
-								<a href="#">
-									<i class="bx bxl-instagram f20"></i>
-								</a>
+								<a href="#"><i class="bx bxl-instagram f20"></i></a>
 							</li>
 						</ul>
 					</div>
 
-					<!-- mobile nav bar menu  -->
+					<!-- mobile view navbar -->
 					<div class="mobile-navbar">
-						<div>
-							<h2>Techno</h2>
-						</div>
+						<h2>Techno</h2>
 						<button class="default-btn open-menu">
 							<i class="bx bx-menu f30"></i>
 						</button>
@@ -157,9 +151,7 @@
 							</ul>
 						</li>
 						<li class="relative primarynav-item">
-							<button class="default-btn button-1">
-								Get A Quote
-							</button>
+							<button class="default-btn button-1">Get A Quote</button>
 						</li>
 					</ul>
 				</div>
@@ -169,71 +161,69 @@
 		<main>
 			<!-- carousel section -->
 			<section class="hero-section">
-				<div class="swiper">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide  slide-1 content-width">
-							<div class="hero-contents">
-								<h2 class="hero-text title-xl">
-									IT Consulting Services<br />
-									For Your Business
-								</h2>
-								<p class="hero-description content-l">We think it's really important to design things with a kind of personality.</p>
-								<button class="default-btn button-1 mt10">Learn More</button>
-							</div>
-						</div>
-						<div class="swiper-slide slide-2 content-width">
-							<div class="hero-contents">
-								<h2 class="hero-text title-xl">
-									IT Consulting Services<br />
-									For Your Business
-								</h2>
-								<p class="hero-description content-l">We think it's really important to design things with a kind of personality.</p>
-								<button class="default-btn button-1 mt10">Learn More</button>
-							</div>
-						</div>
-						<div class="swiper-slide slide-3 content-width">
-							<div class="hero-contents">
-								<h2 class="hero-text title-xl">
-									IT Consulting Services<br />
-									For Your Business
-								</h2>
-								<p class="hero-description content-l">We think it's really important to design things with a kind of personality.</p>
-								<button class="default-btn button-1 mt10">Learn More</button>
-							</div>
+				<div id="hero-carousel" class="owl-carousel hero-section-carousel">
+					<div class="slide-1 slide-common-style content-width">
+						<div class="hero-contents">
+							<h2 class="title-xl line-h-12">
+								IT Consulting Services<br />
+								For Your Business
+							</h2>
+							<p class="hero-description content-l">We think it's really important to design things with a kind of personality.</p>
+							<button class="default-btn button-1 mt10">Learn More</button>
 						</div>
 					</div>
-					<div class="swiper-pagination"></div>
-					<div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div>
+					<div class="slide-2 slide-common-style content-width">
+						<div class="hero-contents">
+							<h2 class="title-xl line-h-12">
+								IT Consulting Services<br />
+								For Your Business
+							</h2>
+							<p class="content-l">We think it's really important to design things with a kind of personality.</p>
+							<button class="default-btn button-1 mt10">Learn More</button>
+						</div>
+					</div>
+					<div class="slide-3 slide-common-style content-width">
+						<div class="hero-contents">
+							<h2 class="title-xl line-h-12">
+								IT Consulting Services<br />
+								For Your Business
+							</h2>
+							<p class="content-l">We think it's really important to design things with a kind of personality.</p>
+							<button class="default-btn button-1 mt10">Learn More</button>
+						</div>
+					</div>
 				</div>
 			</section>
 
 			<!-- about section  -->
 			<section class="about-section content-width">
-                <div class="about-image-section">
-                    <img src="./Assets/images/about-img.png" alt="about-img" class="about-image">
-                </div>
+				<div class="about-image-section">
+					<img src="./Assets/images/about-img.png" alt="about-img" class="about-image" />
+				</div>
 
-                <div class="about-content-section">
+				<div class="about-content-section">
 					<div class="about-inner-content">
 						<h4 class="c-blue title-s">30 YEARS OF EXPERIENCE</h4>
-						<h2 class="about-title title-l c-black line-h-12">26 Years Of Experience <br>In Serve To <span class="c-blue">People</span></h2>
-						<hr class="divide-rule">
+						<h2 class="title-l c-black line-h-12">
+							26 Years Of Experience <br />
+							In Serve To <span class="c-blue">People</span>
+						</h2>
+						<hr class="divide-rule" />
 						<p class="content-m">We are privileged to work with hundred future thinking awesom business including many of the world's top hardware.</p>
 					</div>
 					<div class="about-inner-content">
 						<div class="flex g15">
 							<div>
-								<img src="./Assets/icons/cyber-security.png" alt="secure-icon" class="about-icons">
+								<img src="./Assets/icons/cyber-security.png" alt="secure-icon" class="about-icons" />
 							</div>
 							<div>
-								<span class="c-black title-m ">Our Mission</span>
+								<span class="c-black title-m">Our Mission</span>
 								<p class="content-s">Morem Ipsum is simply dummy text of the printing and pepesetting found.</p>
 							</div>
 						</div>
 						<div class="flex g15">
 							<div>
-								<img src="./Assets/icons/data.png" alt="code-data-icon" class="about-icons">
+								<img src="./Assets/icons/data.png" alt="code-data-icon" class="about-icons" />
 							</div>
 							<div>
 								<span class="title-m c-black">Our Value</span>
@@ -242,64 +232,87 @@
 						</div>
 						<button class="default-btn button-2 mt10">About More</button>
 					</div>
-                </div>
-            </section>
+				</div>
+			</section>
 
 			<!-- service features section -->
-			<section class="service-features">
+			<section class="service-features relative">
 				<div class="service-features-banner">
-					<a href="https://youtu.be/MnrJzXM7a6o?si=qPYluH9wNOnqaegE" target="_blank" class="video-link default-btn">
-						<i class='bx bx-play play-icon'></i>
+					<a href="https://youtu.be/MnrJzXM7a6o?si=qPYluH9wNOnqaegE" target="_blank" class="default-btn">
+						<i class="bx bx-play play-icon"></i>
 					</a>
-					<h2 class="title-l c-white line-h-12 text-a-center">We provide the best quality of IT solution <br>services over the world. Please see our <br> video for about our company</h2>
+					<h2 class="service-feature-text">
+						We provide the best quality of IT solution <br />
+						services over the world. Please see our <br />
+						video for about our company
+					</h2>
 				</div>
+
 				<div class="flip-cards-container content-width">
-					<div class="flip-card-container col-lg-12 ">
+					<div class="flip-card-container col-lg-12">
 						<div class="flip-card">
 							<div class="card-front">
 								<div>
-									<img src="./Assets/icons/support.png" class="s50" alt="service support">
+									<img src="./Assets/icons/support.png" class="s50" alt="service support" />
 								</div>
 								<h3 class="title-m">24/7 Online Support</h3>
-								<p class="text-a-center content-s">There are many variation word pass Lorem Ipsum dont available, but majority <br> dapibus variable</p>
+								<p class="text-a-center content-s">
+									There are many variation word pass Lorem Ipsum dont available, but majority <br />
+									dapibus variable
+								</p>
 							</div>
 							<div class="card-back">
 								<h3 class="title-m c-blue">24/7 Online Support</h3>
-								<p class="text-a-center content-s">There are many variation word pass Lorem Ipsum dont available, but majority <br> dapibus variable</p>
+								<p class="text-a-center content-s">
+									There are many variation word pass Lorem Ipsum dont available, but majority <br />
+									dapibus variable
+								</p>
 								<button class="default-btn button-1 mt10">Read More</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="flip-card-container col-lg-12 ">
+					<div class="flip-card-container col-lg-12">
 						<div class="flip-card">
 							<div class="card-front">
 								<div>
-									<img src="./Assets/icons/software-engineer.png" class="s50" alt="Engineer icon">
+									<img src="./Assets/icons/software-engineer.png" class="s50" alt="Engineer icon" />
 								</div>
 								<h3 class="title-m">Expert Engineers</h3>
-								<p class="text-a-center content-s">There are many variation word pass Lorem Ipsum dont available, but majority <br> dapibus variable</p>
+								<p class="text-a-center content-s">
+									There are many variation word pass Lorem Ipsum dont available, but majority <br />
+									dapibus variable
+								</p>
 							</div>
 							<div class="card-back">
 								<h3 class="title-m c-blue">Expert Engineers</h3>
-								<p class="text-a-center content-s">There are many variation word pass Lorem Ipsum dont available, but majority <br> dapibus variable</p>
+								<p class="text-a-center content-s">
+									There are many variation word pass Lorem Ipsum dont available, but majority <br />
+									dapibus variable
+								</p>
 								<button class="default-btn button-1 mt10">Read More</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="flip-card-container col-lg-12 ">
+					<div class="flip-card-container col-lg-12">
 						<div class="flip-card">
 							<div class="card-front">
 								<div>
-									<img src="./Assets/icons/service.png" class="s50" alt="Trusted Services icon">
+									<img src="./Assets/icons/service.png" class="s50" alt="Trusted Services icon" />
 								</div>
 								<h3 class="title-m">Trusted Services</h3>
-								<p class="text-a-center content-s">There are many variation word pass Lorem Ipsum dont available, but majority <br> dapibus variable</p>
+								<p class="text-a-center content-s">
+									There are many variation word pass Lorem Ipsum dont available, but majority <br />
+									dapibus variable
+								</p>
 							</div>
 							<div class="card-back">
 								<h3 class="title-m c-blue">Trusted Services</h3>
-								<p class="text-a-center content-s">There are many variation word pass Lorem Ipsum dont available, but majority <br> dapibus variable</p>
+								<p class="text-a-center content-s">
+									There are many variation word pass Lorem Ipsum dont available, but majority <br />
+									dapibus variable
+								</p>
 								<button class="default-btn button-1 mt10">Read More</button>
 							</div>
 						</div>
@@ -313,111 +326,112 @@
 					<h6 class="text-a-center content-s c-blue">OUR SERVICES</h6>
 					<h2 class="text-a-center title-l c-black">What We <span class="c-blue">Provide</span></h2>
 				</div>
-				<hr class="divide-rule">
-				<div id="service-cards-slider"  class="owl-carousel service-cards-container">
-						<div class="service-card">
-							<div class="card-image">
-								<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image">
-							</div>
-							<div class="card-content">
-								<div class="s80">
-									<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon">
-								</div>
-								<div>
-									<h3 class="title-m">Product Design</h3>
-									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
-								</div>
-								<a href="#" class="c-blue content-s">READ MORE +</a>
-							</div>
+				<hr class="divide-rule" />
+				<div id="service-cards-slider" class="owl-carousel">
+					<div class="service-card">
+						<div class="card-image">
+							<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image" />
 						</div>
-						<div class="service-card">
-							<div class="card-image">
-								<img src="./Assets/images/service03.jpg" alt="service-card-image" class="service-card-image">
+						<div class="card-content">
+							<div class="s80">
+								<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon" />
 							</div>
-							<div class="card-content">
-								<div class="s80">
-									<img src="./Assets/icons/network.png" alt="coding-icon" class="card-icon">
-								</div>
-								<div>
-									<h3 class="title-m">Digital Services</h3>
-									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
-								</div>
-								<a href="#" class="c-blue content-s">READ MORE +</a>
+							<div>
+								<h3 class="title-m">Product Design</h3>
+								<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
 							</div>
+							<a href="#" class="c-blue content-s">READ MORE +</a>
 						</div>
-						<div class="service-card">
-							<div class="card-image">
-								<img src="./Assets/images/service02.jpg" alt="service-card-image" class="service-card-image">
-							</div>
-							<div class="card-content">
-								<div class="s80">
-									<img src="./Assets/icons//ruler.png" alt="coding-icon" class="card-icon">
-								</div>
-								<div>
-									<h3 class="title-m">Product Selling</h3>
-									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
-								</div>
-								<a href="#" class="c-blue content-s">READ MORE +</a>
-							</div>
+					</div>
+					<div class="service-card">
+						<div class="card-image">
+							<img src="./Assets/images/service03.jpg" alt="service-card-image" class="service-card-image" />
 						</div>
-						<div class="service-card">
-							<div class="card-image">
-								<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image">
+						<div class="card-content">
+							<div class="s80">
+								<img src="./Assets/icons/network.png" alt="coding-icon" class="card-icon" />
 							</div>
-							<div class="card-content">
-								<div class="s80">
-									<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon">
-								</div>
-								<div>
-									<h3 class="title-m">System Support</h3>
-									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
-								</div>
-								<a href="#" class="c-blue content-s">READ MORE +</a>
+							<div>
+								<h3 class="title-m">Digital Services</h3>
+								<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
 							</div>
+							<a href="#" class="c-blue content-s">READ MORE +</a>
 						</div>
-						<div class="service-card">
-							<div class="card-image">
-								<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image">
-							</div>
-							<div class="card-content">
-								<div class="s80">
-									<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon">
-								</div>
-								<div>
-									<h3 class="title-m">Analytics</h3>
-									<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
-								</div>
-								<a href="#" class="c-blue content-s">READ MORE +</a>
-							</div>
+					</div>
+					<div class="service-card">
+						<div class="card-image">
+							<img src="./Assets/images/service02.jpg" alt="service-card-image" class="service-card-image" />
 						</div>
+						<div class="card-content">
+							<div class="s80">
+								<img src="./Assets/icons//ruler.png" alt="coding-icon" class="card-icon" />
+							</div>
+							<div>
+								<h3 class="title-m">Product Selling</h3>
+								<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+							</div>
+							<a href="#" class="c-blue content-s">READ MORE +</a>
+						</div>
+					</div>
+					<div class="service-card">
+						<div class="card-image">
+							<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image" />
+						</div>
+						<div class="card-content">
+							<div class="s80">
+								<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon" />
+							</div>
+							<div>
+								<h3 class="title-m">System Support</h3>
+								<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+							</div>
+							<a href="#" class="c-blue content-s">READ MORE +</a>
+						</div>
+					</div>
+					<div class="service-card">
+						<div class="card-image">
+							<img src="./Assets/images/service01.jpg" alt="service-card-image" class="service-card-image" />
+						</div>
+						<div class="card-content">
+							<div class="s80">
+								<img src="./Assets/icons/coding.png" alt="coding-icon" class="card-icon" />
+							</div>
+							<div>
+								<h3 class="title-m">Analytics</h3>
+								<p class="content-m">Lorem ipsum dolor sit amet, consectetur in adipiscing elit, sed do eiusmod best creative work for company.</p>
+							</div>
+							<a href="#" class="c-blue content-s">READ MORE +</a>
+						</div>
+					</div>
 				</div>
 			</section>
 
 			<!-- contact section  -->
 			<section class="contact-section content-width">
 				<div class="contact-image-area">
-					<img src="./Assets/images/contact-guy-img.png" alt="contact guy" class="contact-img">
+					<img src="./Assets/images/contact-guy-img.png" alt="contact guy" class="contact-img" />
 				</div>
 				<div class="contact-content-area">
 					<span class="title-l">+880 013 143 206</span>
-					<h3 class="title-l line-h-12 contact-text">Need any service ! just </br> contact with us</h3>
-					<p class="content-s contact-text">We have the technology and industry expertise to develop
-						solutions that can connect people and businesses</p>
-					<button class="default-btn button-3 mt20">Join Us Now &#8594;</i></button>
+					<h3 class="title-l line-h-12 contact-text">
+						Need any service ! just <br />
+						contact with us
+					</h3>
+					<p class="content-s contact-text">We have the technology and industry expertise to develop solutions that can connect people and businesses</p>
+					<button class="default-btn button-3 mt20">Join Us Now &#8594;</button>
 				</div>
-
 			</section>
 
 			<!-- casestudy section  -->
 			<section class="casestudy-section">
 				<div>
 					<h6 class="text-a-center content-s c-blue">FEATURES CASE</h6>
-					<h2 class="text-a-center title-l line-h-12 c-black mt10">Our Latest Case Study <br> For Your Business</h2>
+					<h2 class="text-a-center title-l line-h-12 c-black mt10">Our Latest Case Study <br />For Your Business</h2>
 				</div>
-				<hr class="divide-rule">
+				<hr class="divide-rule" />
 				<div id="casestudy-carousel" class="owl-carousel casestudy-carousel-container">
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/1.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/1.jpg" alt="case study-images" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Solution For Financial</h6>
@@ -425,8 +439,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/2.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/2.jpg" alt="case study-images" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Web Design</h6>
@@ -434,8 +448,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/3.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/3.jpg" alt="case study-images" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Social Media</h6>
@@ -443,8 +457,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/4.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/4.jpg" alt="case study-images" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Content Creator</h6>
@@ -452,8 +466,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/5.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/5.jpg" alt="case study-images" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Software Developer</h6>
@@ -461,8 +475,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/6.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/6.jpg" alt="case study-images" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">UI Designer</h6>
@@ -470,8 +484,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/7.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/7.jpg" alt="case study-images" class="casestudy-carousel-image" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Media Manager</h6>
@@ -479,8 +493,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="casestudy-image-container">
-						<img src="./Assets/images/8.jpg" alt="case study-images" class="casestudy-carousel-image">
+					<div class="casestudy-image-container relative">
+						<img src="./Assets/images/8.jpg" alt="case study-images" class="casestudy-carousel-image" />
 						<div class="casestudy-image-content">
 							<div class="casestudy-text-container">
 								<h6 class="content-m text-a-center">Financial Analyst</h6>
@@ -489,16 +503,18 @@
 						</div>
 					</div>
 				</div>
-
 			</section>
 
 			<!-- Team members section  -->
 			<section class="team-section content-width">
 				<div class="team-members-header">
 					<div>
-						<h6 class=" content-s c-blue">TEAM MEMBERS</h6>
-						<h2 class="title-l line-h-12 c-black mt10">Our Awesome Creative <br>Team Members</h2>
-						<hr class="divide-rule mt24">
+						<h6 class="content-s c-blue">TEAM MEMBERS</h6>
+						<h2 class="title-l line-h-12 c-black mt10">
+							Our Awesome Creative <br />
+							Team Members
+						</h2>
+						<hr class="divide-rule mt24" />
 					</div>
 					<div>
 						<button class="default-btn button-2">Join Our Team</button>
@@ -506,7 +522,7 @@
 				</div>
 				<div class="team-members-gallery">
 					<div class="team-image-container col-xl-3 col-lg-5 col-sm-12">
-						<img src="./Assets/images/team1.jpg" alt="team members" class="team-image">
+						<img src="./Assets/images/team1.jpg" alt="team members" class="team-image" />
 						<div class="team-image-overlay"></div>
 						<div class="team-member-details">
 							<p class="content-m">David Malaan</p>
@@ -514,7 +530,7 @@
 						</div>
 					</div>
 					<div class="team-image-container col-xl-3 col-lg-5 col-sm-12">
-						<img src="./Assets/images/team2.jpg" alt="team members" class="team-image">
+						<img src="./Assets/images/team2.jpg" alt="team members" class="team-image" />
 						<div class="team-image-overlay"></div>
 						<div class="team-member-details">
 							<p class="content-m">Andres Jhohne</p>
@@ -522,7 +538,7 @@
 						</div>
 					</div>
 					<div class="team-image-container col-xl-3 col-lg-5 col-sm-12">
-						<img src="./Assets/images/team3.jpg" alt="team members" class="team-image">
+						<img src="./Assets/images/team3.jpg" alt="team members" class="team-image" />
 						<div class="team-image-overlay"></div>
 						<div class="team-member-details">
 							<p class="content-m">Michael Balak</p>
@@ -530,7 +546,7 @@
 						</div>
 					</div>
 					<div class="team-image-container col-xl-3 col-lg-5 col-sm-12">
-						<img src="./Assets/images/team4.jpg" alt="team members" class="team-image">
+						<img src="./Assets/images/team4.jpg" alt="team members" class="team-image" />
 						<div class="team-image-overlay"></div>
 						<div class="team-member-details">
 							<p class="content-m">James Rodrigez</p>
@@ -539,26 +555,23 @@
 					</div>
 				</div>
 			</section>
-			
+
 			<!-- testimonials section  -->
 			<section class="testimonials-section content-width">
 				<div class="testimonials-content">
 					<div class="flex flex-col align-center">
-						<h3 class="text-a-center content-s ">TESTIMONIAL</h3>
+						<h3 class="text-a-center content-s">TESTIMONIAL</h3>
 						<h2 class="text-a-center title-l line-h-12 mt10">Our Happy Customers</h2>
-						<hr class="divide-rule mt30">
+						<hr class="divide-rule mt30" />
 					</div>
-					
+
 					<div id="testimonial-cards-slider" class="owl-carousel service-cards-container">
 						<div class="testimonial-card">
 							<div class="testimonial-msg">
-								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient
-									habitasse suspendisse ut a feugiat morbi neque
-									don't is tortor.Tellus volutpat scelerisque
-									techno tempor.</p>
+								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 							</div>
 							<div class="user-details mt40">
-								<img src="./Assets/images/testi1.jpg" alt="user" class="user-img s90">
+								<img src="./Assets/images/testi1.jpg" alt="user" class="user-img s90" />
 								<div class="ml20">
 									<span class="content-l">Jamal Vuiyan</span>
 									<p class="">Founder</p>
@@ -567,13 +580,10 @@
 						</div>
 						<div class="testimonial-card">
 							<div class="testimonial-msg">
-								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient
-									habitasse suspendisse ut a feugiat morbi neque
-									don't is tortor.Tellus volutpat scelerisque
-									techno tempor.</p>
+								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 							</div>
 							<div class="user-details mt40">
-								<img src="./Assets/images/testi2.jpg" alt="user" class="user-img s90">
+								<img src="./Assets/images/testi2.jpg" alt="user" class="user-img s90" />
 								<div class="ml20">
 									<span class="content-l">Clara Olsone</span>
 									<p class="">Financial Manager</p>
@@ -582,13 +592,10 @@
 						</div>
 						<div class="testimonial-card">
 							<div class="testimonial-msg">
-								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient
-									habitasse suspendisse ut a feugiat morbi neque
-									don't is tortor.Tellus volutpat scelerisque
-									techno tempor.</p>
+								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 							</div>
 							<div class="user-details mt40">
-								<img src="./Assets/images/testi3.jpg" alt="user" class="user-img s90">
+								<img src="./Assets/images/testi3.jpg" alt="user" class="user-img s90" />
 								<div class="ml20">
 									<span class="content-l">Abraham khan</span>
 									<p class="">IT Manager</p>
@@ -597,13 +604,10 @@
 						</div>
 						<div class="testimonial-card">
 							<div class="testimonial-msg">
-								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient
-									habitasse suspendisse ut a feugiat morbi neque
-									don't is tortor.Tellus volutpat scelerisque
-									techno tempor.</p>
+								<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 							</div>
 							<div class="user-details mt40">
-								<img src="./Assets/images/testi3.jpg" alt="user" class="user-img s90">
+								<img src="./Assets/images/testi3.jpg" alt="user" class="user-img s90" />
 								<div class="ml20">
 									<span class="content-l">Abraham khan</span>
 									<p class="">IT Manager</p>
@@ -619,155 +623,163 @@
 				<div class="team-members-header">
 					<div>
 						<h6 class="content-s c-blue">LATEST ARTICLES</h6>
-						<h2 class="title-l line-h-12 c-black mt10">See Our Latest <br> Blog Posts</h2>
-						<hr class="divide-rule mt24">
+						<h2 class="title-l line-h-12 c-black mt10">
+							See Our Latest <br />
+							Blog Posts
+						</h2>
+						<hr class="divide-rule mt24" />
 					</div>
 					<div>
 						<button class="default-btn button-2">See All Blogs</button>
 					</div>
 				</div>
 
-				<div class="article-cards-container ">
+				<div class="article-cards-container">
 					<div class="article-card col-lg-5 col-sm-10">
 						<div class="article-img-container">
-							<img src="./Assets/images/blog1.jpg" alt="article thumbnail" class="article-img">
+							<img src="./Assets/images/blog1.jpg" alt="article thumbnail" class="article-img" />
 						</div>
 						<div class="article-card-details">
 							<p class="content-s">Techno | <span>January 3, 2023</span></p>
 							<h5 class="title-m c-black">The five devices you need to work anytime</h5>
-							<p class="content-s">Lorem ipsum dolor sit amet consectet adipisie 
-								cing elit sed eiusmod tempor incididunt on labore et dolore.</p>
-							<a href="#" class="content-s c-blue" >Read More &rarr;</a>
+							<p class="content-s">Lorem ipsum dolor sit amet consectet adipisie cing elit sed eiusmod tempor incididunt on labore et dolore.</p>
+							<a href="#" class="content-s c-blue">Read More &rarr;</a>
 						</div>
 					</div>
 					<div class="article-card col-lg-5 col-sm-10">
 						<div class="article-img-container">
-							<img src="./Assets/images/blog2.jpg" alt="article thumbnail" class="article-img">
+							<img src="./Assets/images/blog2.jpg" alt="article thumbnail" class="article-img" />
 						</div>
 						<div class="article-card-details">
 							<p class="content-s">Techno | <span>December 8, 2023</span></p>
 							<h5 class="title-m c-black">How to learn PHP 10 tips to get you started</h5>
-							<p class="content-s">Lorem ipsum dolor sit amet consectet adipisie 
-								cing elit sed eiusmod tempor incididunt on labore et dolore.</p>
-							<a href="#" class="content-s c-blue" >Read More &rarr;</a>
+							<p class="content-s">Lorem ipsum dolor sit amet consectet adipisie cing elit sed eiusmod tempor incididunt on labore et dolore.</p>
+							<a href="#" class="content-s c-blue">Read More &rarr;</a>
 						</div>
 					</div>
 					<div class="article-card col-lg-5 col-sm-10">
 						<div class="article-img-container">
-							<img src="./Assets/images/blog1.jpg" alt="article thumbnail" class="article-img">
+							<img src="./Assets/images/blog1.jpg" alt="article thumbnail" class="article-img" />
 						</div>
 						<div class="article-card-details">
 							<p class="content-s">Techno | <span>August 4, 2024</span></p>
 							<h5 class="title-m c-black">The five devices you need to work anytime</h5>
-							<p class="content-s">Lorem ipsum dolor sit amet consectet adipisie 
-								cing elit sed eiusmod tempor incididunt on labore et dolore.</p>
-							<a href="#" class="content-s c-blue" >Read More &rarr;</a>
+							<p class="content-s">Lorem ipsum dolor sit amet consectet adipisie cing elit sed eiusmod tempor incididunt on labore et dolore.</p>
+							<a href="#" class="content-s c-blue">Read More &rarr;</a>
 						</div>
 					</div>
 				</div>
 			</section>
-
 		</main>
 
 		<footer class="footer-section content-width">
 			<div class="footer-container">
 				<div class="footer-content">
-				<div class="footer-subsections">
-					<div class="footer-logo-container">
-						<img src="./Assets/logo/logo.png" alt="logo">
+					<div class="footer-subsections">
+						<div class="footer-logo-container">
+							<img src="./Assets/logo/logo.png" alt="logo" />
+						</div>
+						<p class="content-s">Condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus.</p>
+						<div class="flex align-center g15 mt10">
+							<span class="content-m">Follow Us</span>
+							<ul class="flex g10 social-links">
+								<li>
+									<a href="#"><i class="bx bxl-facebook f18"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="bx bxl-twitter f18"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="bx bxl-linkedin f18"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="bx bxl-skype f18"></i></a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<p class="content-s">Condimentum rhoncus, sem quam semper libero, 
-						sit amet adipiscing sem neque sed ipsum. Nam quam nunc, 
-						blandit vel, luctus.</p>
-					<div class="flex align-center g15 mt10">
-						<span class="content-m">Follow Us</span>
-						<ul class="flex g10 social-links"> 
-							<li><a href="#"><i class='bx bxl-facebook f18'></i></a></li>
-							<li><a href="#"><i class='bx bxl-twitter f18'></i></a></li>
-							<li><a href="#"><i class='bx bxl-linkedin f18' ></i></a></li>
-							<li><a href="#"><i class='bx bxl-skype f18' ></i></a></li>
+					<div class="footer-subsections">
+						<h3 class="title-m">Our Services</h3>
+						<ul class="footer-service-section">
+							<li><a href="#" class="content-s">- Marketing Strategy</a></li>
+							<li><a href="#" class="content-s">- Interior Design</a></li>
+							<li><a href="#" class="content-s">- Digital Services</a></li>
+							<li><a href="#" class="content-s">- Product Selling</a></li>
+							<li><a href="#" class="content-s">- Product Design</a></li>
+							<li><a href="#" class="content-s">- Social Marketing</a></li>
 						</ul>
 					</div>
-				</div>
-				<div class="footer-subsections">
-					<h3 class="title-m">Our Services</h3>
-					<ul class="footer-service-section">
-						<li><a href="#" class="content-s">Marketing Strategy</a></li>
-						<li><a href="#" class="content-s">Interior Design</a></li>
-						<li><a href="#" class="content-s">Digital Services</a></li>
-						<li><a href="#" class="content-s">Product Selling</a></li>
-						<li><a href="#" class="content-s">Product Design</a></li>
-						<li><a href="#" class="content-s">Social Marketing</a></li>
-					</ul>
-				</div>
-				<div class="footer-subsections">
-					<h3 class="title-m">Company Address</h3>
-					<p class="content-s">
-						Porem awesome dolor sitework amet, consetur acing elit, sed do eiusmod ligal
-					</p>
-					<ul class="flex flex-col g10">
-						<li>
-							<p class="content-s">Address : <span>54/4 New dhasa sorini asut, Melbord Austria.</add></p>
-						</li>
-						<li>
-							<p class="content-s">Phone : <a href="tel:+54786547521">+54 786547521</a></p>
-						</li>
-						<li>
-							<p class="content-s">Email : <a href="mailto:demo@example.com">demo@example.com</></p>
-						</li>
-					</ul>
-				</div>
-				<div class="footer-subsections">
-					<h3 class="title-m">Popular Post</h3>
-					<div class="flex g15">
-						<img src="./Assets/images/recent1.jpg" alt="recent post-img" class="s80">
-						<div >
-							<p class="content-m mb10">Tiktok illegally collecting </br> data sharing</p>
-							<date class="content-xs c-grey">December 12, 2023</date>
-						</div>
+					<div class="footer-subsections">
+						<h3 class="title-m">Company Address</h3>
+						<p class="content-s">
+							Porem awesome dolor sitework amet, consetur acing elit, sed do eiusmod ligal
+						</p>
+						<ul class="flex flex-col g10">
+							<li>
+								<p class="content-s">Address : <span>54/4 New dhasa sorini asut, Melbord Austria.</span></p>
+							</li>
+							<li>
+								<p class="content-s">Phone : <a href="tel:+54786547521">+54 786547521</a></p>
+							</li>
+							<li>
+								<p class="content-s">Email : <a href="mailto:demo@example.com">demo@example.com</a></p>
+							</li>
+						</ul>
 					</div>
-					<hr>
-					<div class="flex g15">
-						<img src="./Assets/images/recent3.jpg" alt="recent post-img" class="s80">
-						<div>
-							<p class="content-m mb10">How can use our  </br> latest news by</p>
-							<date class="content-xs c-grey">December 12, 2023</date>
+					<div class="footer-subsections">
+						<h3 class="title-m">Popular Post</h3>
+						<div class="flex g15">
+							<img src="./Assets/images/recent1.jpg" alt="recent post-img" class="s80" />
+							<div>
+								<p class="content-m mb10">
+									Tiktok illegally collecting <br />
+									data sharing
+								</p>
+								<date class="content-xs c-grey">December 12, 2023</date>
+							</div>
+						</div>
+						<hr />
+						<div class="flex g15">
+							<img src="./Assets/images/recent3.jpg" alt="recent post-img" class="s80" />
+							<div>
+								<p class="content-m mb10">
+									How can use our <br />
+									latest news by
+								</p>
+								<date class="content-xs c-grey">December 12, 2023</date>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<hr>
-			<div class="copyright-section">
-				<span class="content-s">&copy; 2023 Techno. All Rights Reserved</span>
-				<div>
-					<a href="#">Privacy Policy</a>
-					<span> / </span>
-					<a href="#">Terms & Conditions</a>
+				<hr />
+				<div class="copyright-section">
+					<span class="content-s">&copy; 2023 Techno. All Rights Reserved</span>
+					<div>
+						<a href="#">Privacy Policy</a>
+						<span> / </span>
+						<a href="#">Terms & Conditions</a>
+					</div>
 				</div>
 			</div>
-			</div>
-			
 		</footer>
 
-
-
-
-
-
-		<!-- swiperjs - carousel  -->
-		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
 		<!-- jquery  -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
 			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 
+		<!-- owl carousel  -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 
 		<!-- javascript  -->
 		<script src="./Script/script.js" async></script>
-
 	</body>
 </html>
