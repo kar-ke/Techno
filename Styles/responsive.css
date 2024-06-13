@@ -76,6 +76,13 @@
     .flip-cards-container{ flex-wrap: wrap; }
 
 
+    /* blog section  */
+    .article-cards-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
 
 }
 
@@ -107,6 +114,7 @@
     }
     .contact-text{ text-align: center; }
 
+    /* team members section  */
     .team-members-header{
         flex-direction: column;
     }
@@ -129,5 +137,13 @@
     .col-sm-12 { flex: 0 0 100%;   width: 100%; }
 
     .title-l { font-size: 20px }
+
+    .footer-content{
+        justify-content: start;
+    }
+    .footer-subsections{
+        width: 100%;
+    }
+
 
 }

@@ -43,11 +43,13 @@
 
 /* margin top  */
 .mt5 { margin-top: 5px; }
+.mt8 { margin-top: 8px; }
 .mt10 { margin-top: 10px; }
 .mt20 { margin-top: 20px; }
+.mt24 { margin-top: 24px;}
 .mt30 { margin-top: 30px; }
 .mt40 { margin-top: 40px;}
-.mt24 { margin-top: 24px;}
+.mt50 { margin-top: 50px;}
 
 /* margin bottom  */
 .mb4 { margin-bottom: 4px; }

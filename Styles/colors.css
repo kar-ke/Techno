@@ -1,7 +1,9 @@
 :root{
 
     --c-primary: #0762f8;
+    --c-primary-50: #458cff;
     --c-primary-100: #083c91;
+    --c-primary-200: #111a3a;
 
     --c-white : #ffffff;
     --c-white-100 : #fafafa;
@@ -13,6 +15,8 @@
     --c-grey-100 : #a1a1a1ea;
     --c-grey-200 : #232323;
 
+
+
 }
 
 
@@ -21,6 +25,7 @@
 .c-blue { color: var(--c-primary) }
 .c-black { color : var(--c-black) }
 .c-white { color : var(--c-white)}
+.c-grey { color : var(--c-grey-100)}
 
 
 .bg-c-blue { background-color: var(--c-primary)}
