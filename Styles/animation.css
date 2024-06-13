@@ -24,3 +24,19 @@
         0 0 0 30px rgba(255, 255, 255, 0);
     } 
 };
+
+@keyframes preloader {
+    from{ transform: rotate(-360deg); }
+    25% {
+        color: #43ff43;
+    }
+    50% {
+        color: rgb(255, 165, 0);
+    }
+    75% {
+        color: #f53c3c;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+};

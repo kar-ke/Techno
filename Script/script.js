@@ -1,5 +1,10 @@
 
 $(document).ready(function () {
+
+    // window preloader 
+    $(window).on("load", function () {
+        $(".loader-container").fadeOut(1000);
+    });
     
     // responsive nav menu button 
     $('.open-menu').click(function () {
