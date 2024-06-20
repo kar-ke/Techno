@@ -15,8 +15,6 @@
     .col-xxl-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-xxl-12 { flex: 0 0 100%;   width: 100%; }
 
-    /* global style */
-    .content-width{ padding: 0 8%; }
 }
 
 @media screen and ( max-width: 1200px ) { 
@@ -33,8 +31,6 @@
     .col-xl-10 { flex: 0 0 83.33%; width: 83.33%; }
     .col-xl-11 { flex: 0 0 91.67%; width: 91.67%; }
     .col-xl-12 { flex: 0 0 100%;   width: 100%; }
-
-    .content-width{ padding: 0 4%; }
 
     /* title sizes */
     .title-l { font-size: 30px }
@@ -103,7 +99,7 @@
     .service-feature-text{ font-size: 25px; }
 
     /* contact section  */
-    .contact-section{
+    .contact-section-container{
         display: flex;
         flex-direction: column;
         justify-content: center;

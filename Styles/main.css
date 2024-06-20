@@ -20,8 +20,6 @@
 }
 
 .slide-common-style{
-    display: flex;
-    align-items: center;
     height: calc(100vh - (var(--h-primaryheader) + var(--h-secondaryheader)));
     width: 100vw;
 }
@@ -29,6 +27,7 @@
 .hero-contents{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: left;
     gap: 10px;
     color: var(--c-white);
@@ -64,7 +63,7 @@
 /* About section  */
 .about-section{
     display: flex;
-    margin: 80px 0;
+    margin-top: 80px;
 }
 
 .about-image-section{
@@ -106,6 +105,7 @@
     align-items: center;
     gap: 60px;
     padding: 75px 0 150px 0;
+    margin-top: 80px;
     background-image: url(../assets/images/banner-1.jpg);
 }
 
@@ -230,10 +230,13 @@
 
 /* contact section  */
 .contact-section{
+    background-image: url(../assets/images/contact-bg.jpg);
+    margin-top: 80px;
+}
+
+.contact-section-container{
     display: flex;
     justify-content: center;
-    background-image: url(../assets/images/contact-bg.jpg);
-    margin-top: 90px;
 }
 
 .contact-image-area{
@@ -306,7 +309,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px 0;
+    margin-top: 80px;
 }
 
 .team-members-header{
@@ -373,6 +376,7 @@
 /* Testimonials section  */
 .testimonials-section {
     background-image: url("../assets/images/testi-bg.jpg");
+    margin-top: 80px;
 }
 
 .testimonials-content{
@@ -416,7 +420,7 @@
 
 /* article card  */
 .article-section {
-    margin: 100px 0;
+    margin-top: 80px;
 }
 
 .article-cards-container {
@@ -455,6 +459,7 @@
 .footer-section {
     background-color: var(--c-primary-200);
     color: var(--c-white);
+    margin-top: 80px;
 }
 
 .footer-content {

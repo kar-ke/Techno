@@ -1,4 +1,5 @@
 /* secondary navbar  */
+
 .secondary-navbar-container{
     height: var(--h-secondaryheader);
     background-color: var(--c-primary);
