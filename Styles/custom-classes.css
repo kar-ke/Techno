@@ -54,6 +54,7 @@
 .divider{
     position: relative;
 }
+
 .divide-rule{
     max-width: 150px;
     height: 6px;
@@ -69,11 +70,20 @@
     height: 15px;
     background-color: var(--c-primary);
     border-radius: 50%;
-
     animation-name: ball;
     animation-duration: 8s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-delay: 1s
+    animation-iteration-count: infinite; 
 }
 
+@keyframes ball {
+    0% {
+        left: 0;
+    }
+    50%{
+        left: 25%;
+    }
+    100%{
+        left: 0;
+    }
+}
